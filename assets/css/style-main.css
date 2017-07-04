@@ -1,0 +1,226 @@
+@font-face {
+  font-family: marion-bold;
+  src: url('../fonts/Marion-Bold.ttf');
+}
+
+@font-face {
+  font-family: old-std;
+  src: url('../fonts/OldStandard-Regular.ttf');
+}
+
+@font-face {
+  font-family: old-std;
+  src: url('../fonts/OldStandard-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: droid-sans;
+  src: url('../fonts/DroidSans.ttf');
+}
+
+@font-face {
+  font-family: droid-sans;
+  src: url('../fonts/DroidSans-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: bebas-neue;
+  src: url('../fonts/BebasNeue.otf');
+}
+
+.section  {
+  font-family: old-std, sans-serif;
+  font-size: 16pt;
+}
+
+.us-map {
+  position: relative;
+  height: 589px;
+  width: 876px;
+  margin: 50px auto;
+
+  background-image: url('../img/us-map.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.us-map h4 {
+  font-family: marion-bold, serif;
+  font-size: 72pt;
+  position: absolute;
+  top: 28px;
+}
+
+.us-map p {
+  font-family: old-std, serif;
+  font-size: 24pt;
+  position: absolute;
+}
+
+.us-map p:nth-child(2) {
+  top: 200px;
+  left: 160px;
+}
+
+.us-map p:nth-child(3) {
+  top: 260px;
+  left: 200px;
+}
+
+.us-map span  {
+  font-family: droid-sans, arial, sans-serif;
+  font-weight: bold;
+  font-size: 36pt;
+}
+
+.map-circle, .map-circle:link, .map-circle:visited {
+  position: absolute;
+  display: block;
+  height: 14px;
+  width: 14px;
+  border-radius: 7px;
+  border-radius: 7px;
+  -webkit-transition-duration: 0.1s;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+.map-circle:hover, .map-circle:active {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+.map-circle.hmmt-map, .map-circle.hmmt-map:link, .map-circle.hmmt-map:visited {
+  top: 132px;
+  left: 821px;
+}
+
+.map-circle.hmmt-map:hover, .map-circle.hmmt-map:active  {
+  top: 129px;
+  left: 818px;
+}
+
+.map-circle.pumac-map, .map-circle.pumac-map:link, .map-circle.pumac-map:visited {
+  top: 207px;
+  left: 772px;
+}
+
+.map-circle.pumac-map:hover, .map-circle.pumac-map:active  {
+  top: 204px;
+  left: 769px;
+}
+
+.map-circle.cmimc-map, .map-circle.cmimc-map:link, .map-circle.cmimc-map:visited {
+  top: 207px;
+  left: 700px;
+}
+
+.map-circle.cmimc-map:hover, .map-circle.cmimc-map:active  {
+  top: 204px;
+  left: 697px;
+}
+
+.map-circle.bmt-map, .map-circle.bmt-map:link, .map-circle.bmt-map:visited {
+  top: 257px;
+  left: 48px;
+}
+
+.map-circle.bmt-map:hover, .map-circle.bmt-map:active  {
+  top: 254px;
+  left: 45px;
+}
+
+.backdrop {
+  background-color: #004d40;
+}
+
+.bouncing {
+    position: absolute;
+    margin: auto;
+    bottom: 24px;
+    left: 0; right: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    line-height: 40px;
+    -webkit-animation: bounce 2s infinite ease-in-out;
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 60%, 100%  { -webkit-transform: translateY(0); }
+    40%  { -webkit-transform: translateY(-20px); }
+	80% { -webkit-transform: translateY(-10px); }
+}
+
+.coming-soon  {
+  font-family: droid-sans;
+  font-weight: bold;
+}
+
+.section-title  {
+  font-family: bebas-neue, arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 40pt;
+}
+
+.contest-logo, .contest-logo:link, .contest-logo:visited {
+  display: block;
+  height: 180px;
+  width: 180px;
+  margin: 0 auto 40px;
+  border-radius: 90px;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-transition-duration: 0.25s;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+.contest-logo:hover, .contest-logo:active {
+  background-color: #e0e0e0;
+}
+
+.hmmt-logo {
+  background-image: url('../img/hmmt-logo.png');
+  background-size: 128px;
+}
+
+.pumac-logo {
+  background-image: url('../img/pumac-logo.png');
+  background-size: 144px;
+}
+
+.cmimc-logo {
+  background-image: url('../img/cmimc-logo.png');
+  background-size: 144px;
+}
+
+.bmt-logo {
+  background-image: url('../img/bmt-logo.png');
+  background-size: 144px;
+}
+
+.bold-word {
+  font-family: droid-sans, sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.container  {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.info-card h5 {
+  font-family: droid-sans;
+  font-weight: bold;
+}
+
+.info-card ul li  {
+  font-size: 12pt;
+  margin-bottom: 12px;
+}
